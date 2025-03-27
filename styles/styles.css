@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+}
+.multimediaAzu{
+    color: rgb(18, 147, 212);
+}
+hr {
+    height: 5px;
+    background-color: rgb(18, 147, 212);
+}
+header{
+    background-color: rgb(36, 40, 43);
+    display: flex;
+    justify-content: space-between;
+    padding: 50 80px;
+    height: 80px;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    color: white;
+}
+nav a {
+    color: white;
+}
+nav a{
+    text-decoration: none;
+}
+.arriba {
+    background: url(../assets/images/cabecera.jpg);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-position-y: -300px;
+    background-size: 140%;
+}
+h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.texto1 {
+    color: white;
+    padding: 0px 0px 12% 0px;
+    font-size: 20px;
+    align-items: center;
+}
+.registro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    height: 100px;
+    background-color: rgb(36, 40, 43);
+    color: white;
+}
+.button {
+    padding: 7px 20px;
+    background-color: #E8491D;
+    border-color: #E8491D;
+}
+.input {
+    padding: 7px 20px;
+}
+.subs {
+    font-size: 30px;
+}
+.azul{
+    color: rgb(18, 147, 212);
+}
+.navegacion :hover {
+    color: gray;
+} 
+  
+.tarjetas{
+    display: flex;
+
+    padding: 50px 300px;
+}
+.card{
+    padding: 0px 30px;
+    justify-content: center;
+    text-align: center;
+}
+h3 h4 h5 p{
+    text-align: center;
+}
+h3 {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+h4{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+h5{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(18, 147, 212);
+    height: 80px;
+    align-items: center;
+}
+h6{
+    font-size: 20px;
+}
+
+/* Sección nosotros*/
+
+.nosotrosMain{
+    display: flex;
+    justify-content: space-around;
+}
+.nosotrosIzq{
+    padding: 20px 150px;
+    width: 70%;
+}
+.nosotrosDere{
+    padding-right: 150px;
+    padding-top: 20px;
+    width: 30%;
+}
+.nosotrosH3{
+    padding-bottom: 20px;
+}
+.parrafoNosotros{
+    padding-bottom: 30px;
+}
+.parrafoNosotros2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+}
+.fondoNosotros{
+    background-color: rgb(53, 66, 74);
+}
+.nosotrosImg{
+    padding-top: 20px;
+    padding-bottom: 105px;
+}
+
+.fondoHacemos{
+    background-color: rgb(53, 66, 74);
+}
+.nosotrosH4{
+    color: white;
+    padding: 30px 20px 10px 20px;
+    font-size: 20px;
+}
+.parrafoNosotros3{
+    color: white;
+    padding: 0px 20px 40px 20px;
+}
+.serviciosH2{
+    color: black;
+    font-size: 25px;
+}
